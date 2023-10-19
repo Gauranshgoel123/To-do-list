@@ -110,3 +110,44 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+
+/* Add responsive design for small screens */
+@media (max-width: 768px) {
+    .todo-app {
+        padding: 20px;
+    }
+
+    .row {
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 12px 40px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+
+    ul li::before {
+        height: 20px;
+        width: 20px;
+        top: 10px;
+        left: 6px;
+    }
+
+    ul li span {
+        width: 32px;
+        height: 32px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
